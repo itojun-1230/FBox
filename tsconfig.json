@@ -1,5 +1,12 @@
 {
-    "compilerOptions": {
-      "lib": ["es6", "dom"]
-    }
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "outDir": "built",
+    "rootDir": ".",
+    "lib": [
+      "es6",
+      "dom"
+    ]
+  }
 }
