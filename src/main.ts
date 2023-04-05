@@ -9,3 +9,9 @@ export function repeatStep(startNum:number, endNum:number, step:number, action:F
         action(i);
     }
 }
+
+export function initArray(num: number, action: Function) {
+    return [...new Array(num)].map((elem ,i: number) => {
+        return action(i);
+    })
+}
