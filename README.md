@@ -4,7 +4,7 @@
 説明: 痒い所に手が届く関数たち 少しずつ増やしていきたい  
 
 **repeat関数**  
-<sub>num回処理を繰り返す</sub>
+<sub>num回処理を繰り返す</sub>  
 構文  
 GP_Array.repeat(num, (i) => {  
       
@@ -38,3 +38,10 @@ GP_math.degreeToRadian(degree);
 <sub>ラジアンを度に変換する</sub>  
 構文  
 GP_math.radianToDegree(radian);  
+
+**timeMeasure関数**
+<sub>実行時間を計測する 返り値に実行時間が入る/sub>  
+構文
+GP_system.timeMeasure(()=>{
+    
+})
