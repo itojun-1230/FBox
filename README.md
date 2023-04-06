@@ -49,6 +49,11 @@ FboxMath.floor(value, stand);
 構文  
 FboxMath.round(value, stand);  
 
+**rangeRandom関数**  
+<sub>範囲内でランダムな値を返す</sub>  
+構文  
+FboxMath.rangeRandom(min, max);  
+
 **timeMeasure関数**  
 <sub>実行時間を計測する 返り値に実行時間が入る/sub>  
 構文  

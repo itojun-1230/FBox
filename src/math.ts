@@ -16,3 +16,7 @@ export function round(value: number , standValue: number){
     const Stand = Math.pow(10, standValue);
     return Math.round(value * Stand) / Stand;
 }
+export function rangeRandom(minValue: number, maxValue: number){
+    //範囲ランダム
+    return Math.floor(Math.random() * maxValue) + minValue
+}
