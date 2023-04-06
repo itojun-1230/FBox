@@ -44,6 +44,11 @@ FboxMath.radianToDegree(radian);
 構文  
 FboxMath.floor(value, stand);  
 
+**round関数**  
+<sub>valueをstandの倍数に四捨五入する</sub>  
+構文  
+FboxMath.round(value, stand);  
+
 **timeMeasure関数**  
 <sub>実行時間を計測する 返り値に実行時間が入る/sub>  
 構文  

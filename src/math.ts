@@ -10,5 +10,7 @@ export function floor(value: number , standValue: number){
     const Stand = Math.pow(10, standValue);
     return Math.floor(value * Stand) / Stand;
 }
-
-console.log(floor(1678.45,-2))
+export function round(value: number , standValue: number){
+    const Stand = Math.pow(10, standValue);
+    return Math.round(value * Stand) / Stand;
+}
