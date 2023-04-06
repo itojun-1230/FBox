@@ -7,10 +7,12 @@ export function radianToDegree(radian: number) {
     return radian * (180 / Math.PI);
 }
 export function floor(value: number , standValue: number){
+    //切り捨て
     const Stand = Math.pow(10, standValue);
     return Math.floor(value * Stand) / Stand;
 }
 export function round(value: number , standValue: number){
+    //四捨五入
     const Stand = Math.pow(10, standValue);
     return Math.round(value * Stand) / Stand;
 }
