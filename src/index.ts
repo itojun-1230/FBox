@@ -3,19 +3,19 @@ import { degreeToRadian, radianToDegree } from "./math";
 import { repeat, repeatStep } from "./repeat";
 import { timeMeasure } from "./system";
 
-export const GP_Array = {
+export const FboxArray = {
     initArray,
     randomArray
 }
-export const GP_repeat = {
+export const FboxRepeat = {
     repeat,
     repeatStep
 }
-export const GP_math = {
+export const FboxMath = {
     degreeToRadian,
     radianToDegree
 }
 
-export const GP_system = {
+export const FboxSystem = {
     timeMeasure
 }
