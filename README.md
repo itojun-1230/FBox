@@ -39,6 +39,11 @@ FboxMath.degreeToRadian(degree);
 構文  
 FboxMath.radianToDegree(radian);  
 
+**floor関数**  
+<sub>valueをstandの倍数に切り捨てる</sub>  
+構文  
+FboxMath.floor(value, stand);  
+
 **timeMeasure関数**  
 <sub>実行時間を計測する 返り値に実行時間が入る/sub>  
 構文  

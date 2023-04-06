@@ -1,5 +1,5 @@
 import { initArray, randomArray } from "./array";
-import { degreeToRadian, radianToDegree } from "./math";
+import { degreeToRadian, floor, radianToDegree } from "./math";
 import { repeat, repeatStep } from "./repeat";
 import { timeMeasure } from "./system";
 
@@ -13,7 +13,8 @@ export const FboxRepeat = {
 }
 export const FboxMath = {
     degreeToRadian,
-    radianToDegree
+    radianToDegree,
+    floor
 }
 
 export const FboxSystem = {
