@@ -54,6 +54,11 @@ FboxMath.round(value, stand);
 構文  
 FboxMath.rangeRandom(min, max);  
 
+**quadEquations関数**
+<sub>a1X + b1Y = c1 の a2X + b2Y = c2 連立方程式</sub>  
+構文  
+FboxMath.quadEquations(a1 ,b1 ,c1 ,a2 ,b2 ,c2);
+
 **timeMeasure関数**  
 <sub>実行時間を計測する 返り値に実行時間が入る/sub>  
 構文  
