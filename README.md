@@ -64,7 +64,7 @@ FboxMath.round(value, stand);
 FboxMath.rangeRandom(min, max);  
 
 **quadEquations関数**
-<sub>a1X + b1Y = c1 の a2X + b2Y = c2 連立方程式</sub>  
+<sub>a1X + b1Y = c1 と a2X + b2Y = c2 連立方程式</sub>  
 構文  
 FboxMath.quadEquations(a1 ,b1 ,c1 ,a2 ,b2 ,c2);  
 </details>
